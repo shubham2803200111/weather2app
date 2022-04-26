@@ -28,20 +28,6 @@ body{
     color:white;
     text-align:center;
     }
-    /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-height: 600px) {
-    .con {height:280px;}
-  }
-  
-  /* Small devices (portrait tablets and large phones, 600px and up) */
-  @media only screen and (min-height: 600px) {
-    .con {height:450px;}
-  }
-  
-  /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-height: 768px) {
-    .con {height:540px;}
-  } 
   
  
     .inp{
