@@ -1,0 +1,108 @@
+body{
+    background:rgb(120, 114, 236);
+    }
+    .btn{
+        outline:none;
+    }
+    .fa-search{
+    position: relative;
+    top:0px;
+    font-size: 22px;
+    color:white;
+    transform:rotate(90deg);
+    }
+    .con{
+    padding:10px;
+    width:300px;
+    height:80%;
+    filter:blur;
+    background: rgb(32, 24, 91);
+    border-radius:20px;
+    position: absolute;
+    background-size: cover;
+    top:0;
+    left:0;
+    right:0px;
+    bottom:0;
+    margin:auto;
+    color:white;
+    text-align:center;
+    }
+    /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-height: 600px) {
+    .con {height:280px;}
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-height: 600px) {
+    .con {height:450px;}
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-height: 768px) {
+    .con {height:540px;}
+  } 
+  
+ 
+    .inp{
+    height:40px;
+    width:210px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    outline:none;
+    position: relative;
+    right:20px;
+    padding-left:10px;
+    font-size: 20px
+    }
+    .btn{
+    border:none;
+    height:40px;
+    width:60px;
+    position:absolute;
+    right:10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background:crimson;
+    top:10px;
+    right:15px;
+    }
+    .tem{
+      font-size: 35px;
+    }
+    .im{
+    transform:scale(1.2); }
+    .tp{
+    width:100%;
+    font-size: 35px;
+    font-weight: bold;
+    }
+    .dis{
+    font-size: 28px;
+    font-family: 'Source Sans Pro', sans-serif;
+    }
+    .ico{
+    width:100%;
+    text-align:center;
+    color:white;
+    }
+    .ctco{
+    font-size: 22px;
+    }
+    .yt{
+    padding:5px;
+    width:90%;
+    height:30px;
+        color:white;
+        font-size:25px;
+        background:crimson;
+        position:absolute ;
+        bottom:10px;
+    }
+    a{
+        text-decoration:none;
+        color:white;
+    }
+    .humpre{
+      font-size: 18px;
+    }
