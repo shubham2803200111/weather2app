@@ -29,6 +29,9 @@
         <br>
         <div class="humpre">
         <span>Humidity: </span><span class="hum">--</span>% &nbsp;&nbsp;&nbsp;<span>Pressure: </span><span class="pre">-- </span>&nbsp;hPa
+        <br/>
+        <br/>
+         <div >Wind: <span class="wind" > --- </span> km/h</div>
     </div>
         
         
@@ -51,6 +54,8 @@
  $(".im").attr("src","https://openweathermap.org/img/wn/"+data.weather[0].icon+"@2x.png");
  $(".hum").html(data.main.humidity);
  $(".pre").html(data.main.pressure);
+ $(".wind").html(data.wind.speed);
+
       })
  
        })
@@ -72,6 +77,7 @@
  $(".im").attr("src","https://openweathermap.org/img/wn/"+data.weather[0].icon+"@2x.png");
  $(".hum").html(data.main.humidity);
  $(".pre").html(data.main.pressure);
+ $(".wind").html(data.wind.speed);
         
         })
        }
